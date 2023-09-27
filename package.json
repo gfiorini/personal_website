@@ -4,6 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
+    "startx": "export NODE_OPTIONS=--openssl-legacy-provider && ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
@@ -20,7 +21,19 @@
     "@angular/router": "~12.2.0",
     "rxjs": "~6.6.0",
     "tslib": "^2.3.0",
-    "zone.js": "~0.11.4"
+    "zone.js": "~0.11.4",
+    "mdb-calendar": "file:./libs/mdb/mdb-calendar-12.0.0.tgz",
+    "mdb-color-picker": "file:./libs/mdb/mdb-color-picker-12.0.0.tgz",
+    "mdb-draggable-picker": "file:./libs/mdb/mdb-draggable-12.0.0.tgz",
+    "mdb-file-upload": "file:./libs/mdb/mdb-file-upload-12.0.0.tgz",
+    "mdb-filter": "file:./libs/mdb/mdb-filter-12.0.0.tgz",
+    "mdb-sortable": "file:./libs/mdb/mdb-sortable-12.0.0.tgz",
+    "mdb-table-editor": "file:./libs/mdb/mdb-table-editor-12.0.0.tgz",
+    "mdb-wysiwyg": "file:./libs/mdb/mdb-wysiwyg-12.0.0.tgz",
+    "ng-uikit-pro-standard": "file:./libs/mdb/ng-uikit-pro-standard-12.0.0.tgz",
+    "@fortawesome/angular-fontawesome": "0.9.0",
+    "@fortawesome/fontawesome-free": "5.15.4",
+    "animate.css": "4.1.1"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~12.2.18",
