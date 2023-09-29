@@ -1,7 +1,7 @@
 <section  class="p-4 d-flex justify-content-center w-100">
   <div class="row">
     <div class="col-sm-6">
-      <div class="card" style="margin: 1px">
+      <div class="card">
         <div class="card-body">
           <h5 class="card-title">Special title treatment</h5>
           <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
@@ -12,7 +12,7 @@
       </div>
     </div>
     <div class="col-sm-6" >
-      <div class="card" style="margin: 1px">
+      <div class="card">
         <div class="card-body">
           <h5 class="card-title">Special title treatment</h5>
           <p class="card-text ">With supporting text below as a natural lead-in to additional content.</p>
@@ -28,7 +28,11 @@
 </section>
 
 <section class="p-4 d-flex justify-content-center w-100 ">
-  <mdb-card >
+  <ngb-rating [max]="5" [(rate)]="currentRating" [readonly]="false"></ngb-rating>
+</section>
+
+<section class="p-4 d-flex justify-content-center w-100 ">
+  <mdb-card style="width: 220px">
     <mdb-accordion>
       <mdb-accordion-item>
         <mdb-accordion-item-head >
