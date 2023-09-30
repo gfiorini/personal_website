@@ -1,6 +1,4 @@
-
-
-@import './customs';
+@import 'customs/pre/prebootstrap_customs';
 
 @import '@fortawesome/fontawesome-free/scss/fontawesome.scss';
 @import '@fortawesome/fontawesome-free/scss/solid.scss';
@@ -9,16 +7,7 @@
 @import 'ng-uikit-pro-standard/assets/scss/bootstrap/bootstrap.scss';
 @import 'ng-uikit-pro-standard/assets/scss/mdb.scss';
 
-/* Importing Bootstrap SCSS file. */
-@import 'bootstrap/scss/bootstrap';
+@import 'customs/post/_customs.scss';
 
-//material design bootstrap, come viene fatto l'override delle classi ?
-
-// border-style non viene riconosciuto
-.card {
-  background-color: lightblue; //lo prende
-  margin: 10px; //lo prende
-  border-radius: 10px; //lo prende
-}
 
 

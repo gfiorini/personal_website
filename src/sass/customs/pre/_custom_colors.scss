@@ -1,0 +1,15 @@
+// $custom-color-primary: #00609D;
+$custom-color-primary: green;
+$custom-color-secondary: #002F56;
+$custom-color-danger: #ff4136;
+
+
+//bootstrap variables override
+$theme-colors: (
+  "primary": $custom-color-primary,
+  "secondary": $custom-color-secondary,
+  "danger": $custom-color-danger
+);
+
+
+

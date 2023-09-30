@@ -1,0 +1,153 @@
+$font-family-header: "Roboto", sans-serif;
+$font-family: "Open Sans";
+
+// Font Weights
+$hairline-weight: 100;
+$thin-weight:     200;
+$light-weight:    300;
+$normal-weight:   400;
+$medium-weight:   500;
+$semibold-weight: 600;
+$bold-weight:     700;
+$xbold-weight:    800;
+$black-weight:    900;
+
+// Synonyms
+$regular-weight:    $normal-weight;
+$book-weight:       $light-weight;
+$xlight-weight:     $hairline-weight;
+$ultralight-weight: $hairline-weight;
+$heavy-weight:      $xbold-weight;
+$lighter-weight:	  $light-weight;
+$bolder-weight: 	  $semibold-weight;
+
+// Font size normalize
+$font-size-global-sm: 8px;
+$font-size-global-md: 9px;
+$font-size-global-lg: 10px;
+$font-size-global-xxl: 11px;
+$font-size-global-xxxl: 14px;
+
+// FontSize and LineHeight and LetterSpacing
+$p-smallest-font-size: 1.1rem;
+$p-smallest-font-line-height: 1.4rem;
+$p-smallest-font-letter-spacing: 0.018rem;
+$p-small-font-size: 1.3rem;
+$p-small-font-line-height: 1.6rem;
+$p-small-font-letter-spacing: 0.020rem;
+$p-normal-font-size: 1.6rem;
+$p-normal-font-line-height: 2.0rem;
+$p-normal-font-letter-spacing: 0.025rem;
+$p-big-font-size: 2.0rem;
+$p-big-font-line-height: 2.5rem;
+$p-big-font-letter-spacing: 0.025rem;
+
+$h1-smallest-font-size: 3.2rem;
+$h1-smallest-font-line-height: 4.0rem;
+$h1-small-font-size: 4.0rem;
+$h1-small-font-line-height: 5.0rem;
+$h1-normal-font-size: 4.8rem;
+$h1-normal-font-line-height: 6.0rem;
+$h1-big-font-size: 6.2rem;
+$h1-big-font-line-height: 7.7rem;
+$h1-bigest-font-size: 7.6rem;
+$h1-bigest-font-line-height: 9.5rem;
+$h2-font-size: 2.4rem;
+$h2-font-line-height: 3.0rem;
+$h3-font-size: 2.0rem;
+$h3-font-line-height: 2.5rem;
+$h3-font-letter-spacing: 0.025rem;
+$h4-font-size: 1.6rem;
+$h4-font-line-height: 2.0rem;
+$h5-font-size: 1.3rem;
+$h5-font-line-height: 1.6rem;
+$h6-font-size: 1.1rem;
+$h6-font-line-height: 1.4rem;
+
+// FONT SIZE
+//$form-fontsize-select: 2.2rem;
+//$form-fontsize-select-label: 2.2rem;
+//$form-fontsize-select-label-small: 1.4rem;
+//$font-title: $h3-font-size;
+//$font-input: $p-normal-font-size;
+//$font-button: $p-small-font-size;
+//$font-title-footer: $h1-smallest-font-size;
+//$font-text-footer: $p-normal-font-size;
+//$font-text-error: $p-normal-font-size;
+//$font-text-user: $p-normal-font-size;
+//$font-subTitle: $h5-font-size;
+//$font-title-header: $h2-font-size;
+//$font-title-error: $h2-font-size;
+//$font-search: $p-normal-font-size;
+//$font-text-information: $p-normal-font-size;
+//$font-text-item: $p-normal-font-size;
+//$font-text-item-small: $p-smallest-font-size;
+//$font-text-item-big: $h1-smallest-font-size;
+//$font-big-title-content: $h1-bigest-font-size;
+//$font-title-content: $h1-small-font-size;
+//$font-chip-size: $p-small-font-size;
+
+// COUNTER
+//$font-counter-size: $p-small-font-size;
+//$font-lineheight: $p-small-font-line-height;
+
+//checkbox
+//$font-size-label-checkbox: $p-small-font-size;
+//$font-line-height-label-checkbox: $p-small-font-line-height;
+//$font-letter-spacing-label-checkbox: $p-small-font-letter-spacing;
+//$font-size-label-checkbox: $p-small-font-size;
+
+//radiobox
+//$font-size-label-checkbox: $p-small-font-size;
+
+//Form
+//$font-size-label-checkbox: $p-small-font-size;
+//$form-size-text-form: $p-normal-font-size;
+
+//$form-fontsize-select: 2.2rem;
+//$form-fontsize-select-label: 2.2rem;
+//$form-fontsize-select-label-small: 1.4rem;
+
+//Card
+//$card-font-size-title-mini: $p-small-font-size;
+//$card-font-size-text: $p-small-font-size;
+//$card-font-size-text-default: 1.6rem;
+//$card-font-size-step: 1.6rem;
+//$card-font-size-text-default: $p-normal-font-size;
+//$card-font-line-height-text-default: $p-normal-font-line-height;
+//$card-font-letter-spacing-text-default: $p-normal-font-letter-spacing;
+//$card-font-size-title-mini: $p-small-font-size;
+//$card-font-size-text: $p-small-font-size;
+//$card-font-line-height-text: $p-small-font-line-height;
+//$card-font-letter-spacing-text: $p-small-font-letter-spacing;
+//$card-font-size-step: $p-normal-font-size;
+//$card-font-size-title: $h3-font-size;
+//$card-font-size-conferma: $h1-smallest-font-size;
+//$card-font-size-text-mini: $p-smallest-font-size;
+//$card-font-line-height-text-mini: $p-smallest-font-line-height;
+//$card-font-letter-spacing-text-mini: $p-smallest-font-letter-spacing;
+
+//TABLE
+//$table-font-text-head: $p-small-font-size;
+//$table-font-text-head-line-height: $p-small-font-line-height;
+//$table-font-text-head-letter-spacing: $p-small-font-letter-spacing;
+//$table-font-text-value: $p-normal-font-size;
+//$table-font-text-line-height: $p-normal-font-line-height;
+//$table-font-text-letter-spacing: $p-normal-font-letter-spacing;
+$table-font-nav-size: 2.2rem;
+$table-font-nav-line-height: 2.75rem;
+
+//MODAL
+//$modal-size-super-title: $h1-smallest-font-size;
+//$modal-size-title: $h3-font-size;
+//$modal-size-text-form: $p-normal-font-size;
+//$modal-size-error-text-form: $p-small-font-size;
+//$modal-size-title-form: $p-normal-font-size;
+//$modal-size-text-button: $p-small-font-size;
+//$modal-size-label: $p-small-font-size;
+
+//TOOLTIP
+//$tooltip-text-size: $p-normal-font-size;
+
+//CARD ERROR
+//$font-size-body2-regular: $p-normal-font-size;
