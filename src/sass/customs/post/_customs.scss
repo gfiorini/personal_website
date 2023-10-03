@@ -1,3 +1,9 @@
 body {
+  background-color: $blue-grey-darken-2//$special-color-dark;
   //font-family: "Cascadia Code"
+}
+
+//se metto lo stile qua lo prende, se lo metto in app-component no 
+.navbar {
+  min-height: 4rem;
 }
