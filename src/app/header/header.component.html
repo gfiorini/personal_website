@@ -2,13 +2,13 @@
   <mdb-navbar SideClass="navbar navbar-expand-lg navbar-dark special-color-dark fixed-top"  [containerInside]="true">
      <links>
       <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link waves-light" mdbWavesEffect>Home</a>
+        <ng-container *ngFor="let link of links">
+        <li class="nav-item" [ngClass]="{'active': link.selected}">
+          <a class="nav-link waves-light" mdbWavesEffect routerLink="{{link.route}}" (click)="navLink(link)">{{link.name}}</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link waves-light" mdbWavesEffect>Blog</a>
-        </li>
+        </ng-container>
       </ul>
     </links>
   </mdb-navbar>
 </header>
+
