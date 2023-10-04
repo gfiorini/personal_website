@@ -3,10 +3,26 @@ body {
   //font-family: "Cascadia Code"
 }
 
-section.container {
-  padding-left: 1.5rem;
+section {
+  color: #fff;
+  margin-bottom: 3rem;
+  .container {
+    padding-left: 1.5rem;
+  }
 }
+
 //se metto lo stile qua lo prende, se lo metto in app-component no
 .navbar {
   min-height: 4rem;
+}
+
+.bg-container {
+  margin-top: 4rem;
+  height: 12rem;
+}
+
+.container_img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
