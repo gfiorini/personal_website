@@ -1,5 +1,6 @@
 body {
-  background-color: $blue-grey-darken-2//$special-color-dark;
+  background-color: $blue-grey-darken-2; //$special-color-dark;
+  font-family: var(--font-family);
   //font-family: "Cascadia Code"
 }
 
@@ -26,4 +27,8 @@ section {
   height: 100%;
   width: 100%;
   object-fit: cover;
+}
+
+.ql-editor strong{
+  font-weight:bold;
 }

@@ -11,6 +11,8 @@ import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
 import { BlogComponent } from './blog/blog.component';
 import {ButtonModule} from "primeng/button";
+import {EditorModule} from "primeng/editor";
+import {PaginatorModule} from "primeng/paginator";
 
 @NgModule({
   declarations: [
@@ -27,7 +29,9 @@ import {ButtonModule} from "primeng/button";
     AccordionModule,
     NgbModule,
     BrowserAnimationsModule,
-    ButtonModule
+    ButtonModule,
+    EditorModule,
+    PaginatorModule
   ],
   providers: [],
   bootstrap: [AppComponent]
