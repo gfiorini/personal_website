@@ -10,6 +10,7 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
 import { BlogComponent } from './blog/blog.component';
+import {ButtonModule} from "primeng/button";
 
 @NgModule({
   declarations: [
@@ -19,14 +20,15 @@ import { BlogComponent } from './blog/blog.component';
     HomeComponent,
     BlogComponent
   ],
-    imports: [
-        BrowserModule,
-        AppRoutingModule,
-        MDBRootModule,
-        AccordionModule,
-        NgbModule,
-        BrowserAnimationsModule
-    ],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    MDBRootModule,
+    AccordionModule,
+    NgbModule,
+    BrowserAnimationsModule,
+    ButtonModule
+  ],
   providers: [],
   bootstrap: [AppComponent]
 })
