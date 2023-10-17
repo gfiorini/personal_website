@@ -13,4 +13,9 @@ export class BlogComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  editorOnInit(event: any) {
+    // const quill : Quill = event.editor;
+    // console.log('quill', quill);
+  }
+
 }
